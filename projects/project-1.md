@@ -1,44 +1,54 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/ICS111.png
+title: College RPG
+permalink: projects/collegerpg
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2016-05-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - ICS 111
+  - Object Oriented Programming
+  - Game Development
+summary: College RPG for ICS 111 final project completed with a partner
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/ICS111-2.png">
+  <img class="ui image" src="../images/ICS111-3.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This project was created in Spring 2016 as a final project for ICS 111 -the first course for Java Object-Oriented Programming. My partner and I created a game which combined RPG and point-and-click aspects. The objective of the game is to "battle" college assignments to achieve a passing grade to win. The player must monitor their energy to ensure they are able to "battle" the assignments, they may also use purchased items from the shop to restore energy or increase their grade. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Because there were only two of us, the work for this project was evenly split between my partner and I. 
+For this project I found the images/music, created the text boxes, created the class for the sprite to move and interact with assignments, created the class for the "battle" sequences, and created functions to determine the end game results.
 
-Here is some code that illustrates how we read values from the line sensors:
+You can see a demonstration of the program here [YouTube](https://www.youtube.com/watch?v=Ug-7pg_gx9o&t=7s)
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+Included below is a function from the "Character" class used to animate the sprite when the player moved it upwards. This was the first programming class I took and it really sparked my interest in coding since most of our programs included animation and gaming. Looking back on this code, I think I could write more concise code with less comments. In this course we also used a class that contained functions written by the professor's previous students to simplify coding to a display; I'd be interested in creating more projects like this in the future, it could be a good reminder of what I like about programming and help me to discover other fields I'm interested in.
+
+```
+void goUp(){ //create function called goUp that returns type void
+		for(int i=0; i<UPsequence.size(); i++){//create for loop that declares int i and initializes it with 0,     
+            performs loop when i is less than the size of the UPsequence, and adds one to i after each loop
+			DOWNsequence.get(i).hide(); //hide object in index i of the arraylist DOWNsequence
+			RIGHTsequence.get(i).hide(); //hide object in index i of the arraylist RIGHTsequence
+			LEFTsequence.get(i).hide(); //hide object in index i of the arraylist LEFTsequence
+		}
+		counter++; //add one to counter
+		if(counter == TIME_STEP){ //if counter is the same value as TIME_STEP
+			counter = 0; //set counter to 0
+			posy = posy-15; //initialize posy with posy-15
+			int next_index = (index+1)%UPsequence.size(); //declare int called next_index and initialize it with the remainder of (index+1)/the UPsequence size
+			UPsequence.get(index).hide(); //hide object in index of the arraylist UPsequence
+			UPsequence.get(next_index).show(); //show object in next_index of the arraylist UPsequence
+			index = next_index; //initialize index with next_index
+			UPsequence.get(index).translateTo(posx, posy-15); //translate the index of UPsequence to (posx, posy-15)
+		}
+	}
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
