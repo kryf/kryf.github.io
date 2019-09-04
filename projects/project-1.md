@@ -30,23 +30,24 @@ Included below is a function from the "Character" class used to animate the spri
 
 ```
 void goUp(){ //create function called goUp that returns type void
-		for(int i=0; i<UPsequence.size(); i++){//create for loop that declares int i and initializes it with 0,     
+   for(int i=0; i<UPsequence.size(); i++){//create for loop that declares int i and initializes it with 0,     
             performs loop when i is less than the size of the UPsequence, and adds one to i after each loop
-			DOWNsequence.get(i).hide(); //hide object in index i of the arraylist DOWNsequence
-			RIGHTsequence.get(i).hide(); //hide object in index i of the arraylist RIGHTsequence
-			LEFTsequence.get(i).hide(); //hide object in index i of the arraylist LEFTsequence
-		}
-		counter++; //add one to counter
-		if(counter == TIME_STEP){ //if counter is the same value as TIME_STEP
-			counter = 0; //set counter to 0
-			posy = posy-15; //initialize posy with posy-15
-			int next_index = (index+1)%UPsequence.size(); //declare int called next_index and initialize it with the remainder of (index+1)/the UPsequence size
-			UPsequence.get(index).hide(); //hide object in index of the arraylist UPsequence
-			UPsequence.get(next_index).show(); //show object in next_index of the arraylist UPsequence
-			index = next_index; //initialize index with next_index
-			UPsequence.get(index).translateTo(posx, posy-15); //translate the index of UPsequence to (posx, posy-15)
-		}
-	}
+	DOWNsequence.get(i).hide(); //hide object in index i of the arraylist DOWNsequence
+	RIGHTsequence.get(i).hide(); //hide object in index i of the arraylist RIGHTsequence
+	LEFTsequence.get(i).hide(); //hide object in index i of the arraylist LEFTsequence
+   }
+   counter++; //add one to counter
+   if(counter == TIME_STEP){ //if counter is the same value as TIME_STEP
+	counter = 0; //set counter to 0
+	posy = posy-15; //initialize posy with posy-15
+	int next_index = (index+1)%UPsequence.size(); //declare int called next_index and initialize it with the remainder of 
+		(index+1)/the UPsequence size
+	UPsequence.get(index).hide(); //hide object in index of the arraylist UPsequence
+	UPsequence.get(next_index).show(); //show object in next_index of the arraylist UPsequence
+	index = next_index; //initialize index with next_index
+	UPsequence.get(index).translateTo(posx, posy-15); //translate the index of UPsequence to (posx, posy-15)
+   }
+}
 ```
 
 
