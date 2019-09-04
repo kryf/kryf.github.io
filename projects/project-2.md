@@ -30,20 +30,20 @@ I was responsible for helping to dsign the circuit which included:
 The circuit design can be viewed in the image above. I was also responsible for contributing to the program for the anti-theft back. A sample of our code can be viewed below; this was the main segement responsible for setting off the alarm.
 
 ```
-//if a card hasn't been scanned yet, alarm turns on
-if(!success){
-   digitalWrite(ledPin, HIGH);
-   digitalWrite(buzzer, HIGH);
-   Serial.println("alarm on");
-//if card is scanned, alarm turns off
-}else{
-   Serial.println("alarm off");
-   digitalWrite(ledPin, LOW);  
-   digitalWrite(buzzer, LOW);
-//when bag is closed again set success to false and return to beginning of loop
-if(analogRead(sensePin) < 100){ //change to 100 for bag
-   Serial.println("alarm reset");
-   success = false;
-   return;
-}
+   //if a card hasn't been scanned yet, alarm turns on
+   if(!success){
+      digitalWrite(ledPin, HIGH);
+      digitalWrite(buzzer, HIGH);
+      Serial.println("alarm on");
+   //if card is scanned, alarm turns off
+   }else{
+      Serial.println("alarm off");
+      digitalWrite(ledPin, LOW);  
+      digitalWrite(buzzer, LOW);
+   //when bag is closed again set success to false and return to beginning of loop
+   if(analogRead(sensePin) < 100){ //change to 100 for bag
+      Serial.println("alarm reset");
+      success = false;
+      return;
+   }
   ```
