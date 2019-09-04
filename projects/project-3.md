@@ -1,61 +1,26 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/EE205.png
+title: 25 to 4
+permalink: projects/25to4
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-05-08
 labels:
-  - Lisp
+  - C++
+  - EE205
+  - Object Oriented Programming
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A trivia game developed as a group for EE205 final project
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+This project was created for EE 205 the second course for Object-Oriented Programming using C++. The game has four categories which each contain 25 questions and allows up to four players. After choosing a category, the game randomizes the answers and selects the first player to type in thei answer within a certain time. The game goes through the players in order until all the questions are answered and shows player scores at the end of the game.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+For this project I created the user and info classes/header files. The user class held constructors so different players could be created and have their information initialized and edited. The info class held constructors to keep track of the scores of all the players and functions to edit Scores.
+Source: <a href="https://github.com/howtotailslide/EE205/tree/master/Project"><i class="large github icon "></i>EE205/tree/master/Project</a>
 
-To give you a flavor of the game, here is an excerpt from one run:
+Below was a default background image for our quiz. It contained a section for the question text, a section for each category, a scoreboard for each player, and an area to enter the player's answer. A popular theme for final projects was adding the Professor's face.<img class="ui medium right floated rounded image" src="../images/EE205-2.png">
 
-<hr>
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
