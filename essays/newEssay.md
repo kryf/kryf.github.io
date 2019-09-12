@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Learning Javascript and ES6
+title: new Essay
 # All dates must be YYYY-MM-DD format!
 date: 2019-9-6
 labels:
