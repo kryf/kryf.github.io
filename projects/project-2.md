@@ -20,7 +20,7 @@ This project was completed using Arduino Uno to develop skills in building circu
 
 The project my partners and I created was an anti-theft backpack. We designed a circuit that would sense when a certain amount of light entered the bag. When the correct RFID key was scanned, the alarm would turn off and the bag could be opened; when the bag is closed again the photoresistor senses the change in light and resets the alarm. If the incorrect RFID is scanned or no RFID key is scanned, the alarm is set off when the bag is opened and will continue to ring until the correct RFID key is scanned. 
 
-I was responsible for helping to dsign the circuit which included: 
+I was responsible for helping to design the circuit which included: 
   -an Arduino Uno
   -a piezo buzzer
   -a photoresistor
