@@ -18,7 +18,7 @@ When first using ESLint, I didn’t understand the importance of getting its gre
 
 Looking back at today’s WOD, I had a lot of ESLint issues; I was rushing to finish the code before the WOD time ran out so I wasn’t very concerned about ESLint. The biggest issue with my code was a missing semicolon after the console.log command; I only noticed this when observing the ESLint issues after the WOD, during class when I ran the code it seemed to run fine. I used a roundabout way to solve today’s WOD and it seemed to bring up a lot of warning with ESLint. If I had used a more concise solution ESLint wouldn’t have detected as many issues.
 <div class="ui medium rounded images">
-  <img class="ui image" width=500 height=400 src="../images/ESLint.png">
+  <img class="ui image" src="../images/ESLint.png">
 </div>
 
 ## ESLint Goals
