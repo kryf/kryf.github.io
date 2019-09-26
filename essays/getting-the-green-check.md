@@ -1,3 +1,3 @@
 <div class="ui medium rounded images">
-  <img class="ui image" src="../images/ESLint.png">
+  <img class="ui image" img align="left" src="../images/ESLint.png">
 </div>
