@@ -11,7 +11,7 @@ labels:
  After experiencing 90's nostalgia with html, we're finally brought back to the look of modern websites with the use of Semantic UI. 
  
 <div class="ui small image">
-  <img class="ui image" src="https://miro.medium.com/max/500/1*H4Q0WVU0Hzt4DEcwVgZwbQ.jpeg" height="180px" width="300px">
+  <img class="ui image" align="centered" src="https://miro.medium.com/max/500/1*H4Q0WVU0Hzt4DEcwVgZwbQ.jpeg" height="180px" width="300px">
 </div>
 
 
