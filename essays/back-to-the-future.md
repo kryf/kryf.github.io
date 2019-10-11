@@ -10,9 +10,16 @@ labels:
 ---
  After experiencing 90's nostalgia with html, we're finally brought back to the look of modern websites with the use of Semantic UI. 
  
+ <!--
 <div class="ui small image">
   <img class="ui image" align="centered" src="https://miro.medium.com/max/500/1*H4Q0WVU0Hzt4DEcwVgZwbQ.jpeg" height="180px" width="300px">
 </div>
+-->
+
+<p>
+   After experiencing 90's nostalgia with html, we're finally brought back to the look of modern websites with the use of Semantic UI. 
+</p>  
+  <img class="ui image" align="right" src="https://miro.medium.com/max/500/1*H4Q0WVU0Hzt4DEcwVgZwbQ.jpeg" height="180px" width="300px">
 
 
 I'm not sure if Semantic UI is as difficult as learning a new programming language, but I do think it's somewhat comparable. It's easy to understand most of the syntax similar to html, just like it was easy to understand how the syntax for javascript was similar to java. It seems like one of the advantages of using Semantic UI would be how similar its syntax is to written/spoken English. For example, if you want something to be a specific color or size you can add it to the class; this feature seems like it can get confusing since it effects the name of your class. If you create several classes with many characteristics, I could see differentiating them all could become difficult.
