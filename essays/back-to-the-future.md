@@ -7,7 +7,9 @@ date: 2019-10-10
 labels:
   - Semantic UI
   - UI Frameworks
+  -Java
 ---
+
 <img class="ui image" align="right" src="https://miro.medium.com/max/500/1*H4Q0WVU0Hzt4DEcwVgZwbQ.jpeg" height="180px" width="300px">
 
 After experiencing 90's nostalgia with html, we're finally brought back to the look of modern websites with the use of Semantic UI. Even though we've mostly gotten familiar with creating top menus and footers, we've been able to replicate modern websites decently.
