@@ -22,13 +22,14 @@ The site will allow users to pick a specific course, i.e. biology, chemistry; th
 If a user sees a post that was unrelated or a scam, they can report it via the report button on the list item page. This sends a report to the Admin. 
 
 Mockup pages include:
-Landing page
-User home page
-User profile page
-List item page
-Admin home page
-Category page
-Create post page
+
+<li>Landing page</li>
+<li>User home page</li>
+<li>User profile page</li>
+<li>List item page</li>
+<li>Admin home page</li>
+<li>Category page</li>
+<li>Create post page</li>
 
 ## Case Ideas
 
