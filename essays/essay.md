@@ -24,6 +24,7 @@ If a user sees a post that was unrelated or a scam, they can report it via the r
 Mockup pages include:
 
 <li>Landing page</li>
+<li>Register page</li>
 <li>User home page</li>
 <li>User profile page</li>
 <li>List item page</li>
@@ -33,4 +34,5 @@ Mockup pages include:
 
 ## Case Ideas
 
+<li>New user goes to landing page, registers/login,
 ## Beyond the basics
