@@ -31,8 +31,12 @@ Mockup pages include:
 <li>Admin home page</li>
 <li>Category page</li>
 <li>Create post page</li>
+<li>Help page</li>
 
 ## Case Ideas
 
-<li>New user goes to landing page, registers/login,
+<li>New user goes to landing page, registers, User home page, User profile page</li>
+<li>Admin user goes to landing page, login, Admin home page, and is able to monitor the site</li>
+ <li>Returning user goes to landing page, logs in, and browses books through list item page</li>
+  
 ## Beyond the basics
