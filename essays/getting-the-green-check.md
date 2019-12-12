@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Getting the Green Check
 # All dates must be YYYY-MM-DD format!
-date: 2019-9-26
+date: 2019-09-26
 labels:
   - ESLint
   - IntelliJ
