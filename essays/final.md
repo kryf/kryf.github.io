@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Final Essay
 # All dates must be YYYY-MM-DD format!
-date: 2019-9-6
+date: 2019-09-06
 labels:
   - Software Engineering
   - Learning
