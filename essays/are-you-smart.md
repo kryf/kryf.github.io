@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Are you smart?
 # All dates must be YYYY-MM-DD format!
-date: 2019-9-12
+date: 2019-09-12
 labels:
   - Questions
   - Smart questions
