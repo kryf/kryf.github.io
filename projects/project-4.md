@@ -12,7 +12,7 @@ labels:
   - Meteor
   - Website Development
   - Database
-summary: College RPG for ICS 111 final project completed with a partner
+summary: The UHber website allows students to organize carpools between a chosen city and the UH Manoa Campus
 ---
 ## What is UHber?
 <img class="ui image" align="right" src="../images/new-landing2.PNG" height="220px" width="400px">
