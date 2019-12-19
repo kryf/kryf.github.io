@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ICS111.png
+image: images/uhberLogo.png
 title: UHber
 permalink: projects/uhber
 # All dates must be YYYY-MM-DD format!
