@@ -19,3 +19,5 @@ summary: College RPG for ICS 111 final project completed with a partner
   <img class="ui image" src="../images/ICS111-2.png">
   <img class="ui image" src="../images/ICS111-3.png">
 </div>
+
+You can learn more about the UHber application by visiting our uhber.github.io page
