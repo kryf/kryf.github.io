@@ -6,18 +6,13 @@ title: Final Essay
 date: 2019-12-18
 labels:
   - Software Engineering
-  - Learning
-  - Javascript
-  - ES6
-  - Athletic Software Engineering
-  - WODs
+  - Configuration Management
+  - Agile Project Management
 ---
-## Javascript and ES6
+## 
 
-As a computer engineering student, the majority of the programs I've worked with have used C or C++, but I also have some experience with Java and Python. Comparing Javascript to other languages I have dealt with, as the name suggests, it's most similar to coding with Java. I do enjoy the flexibility Javascript permits -primarilty the allowan of variable declaration without a specific variable type and unspecified return types for functions- however I find it difficult to remember the difference between Javascript and other languages. I found using "freecodecamp" convenient for learning Javascript; it was easy and fast to go through exercises where I already understood the material, but I was also able to spend more time and get hints on new or more difficult examples. 
+Although the first Software Engineering course I took was full of non-stop learning, the most valuable learning experiences I gained from this course surprisingly weren't related to learning new coding languages or frameworks.
 
-The biggest difficulty I had with the [Introduction to JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) was remembering functions and rules already built into Javascript, such as "hasOwnProperty" from [Basic JavaScript: Testing Objects for Properties](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/testing-objects-for-properties) and [string immutability](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understand-string-immutability). The [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6) section was more difficult for me than the Javascript section; the new syntax and some concepts were extremely different than other languages I have learned in the past. I can see why the new material would be convenient when writing long programs, but I need more experience coding this way in order to use it efficiently. I think the syntax for Javascript is more convenient and concise than other languages, however I also believe it's better for beginning programmers to learn another language before Javascript.
+I had some experience with configuration management, the process of managing a project to maintain consistensy, but had never practiced it in a way to take advantage of its full potential. Throughout the course, we've had many projects that were saved in iterations; this was especially useful for the [final project](https://kryf.github.io/projects/uhber) where previous versions of code needed to be restored to discover what had caused our app to crash. After frequently utilizing configuration management through [GitHub](https://github.com/kryf), I realized how convenient this process is and how it would save me a lot of time when I was deleting lines of code from my Android app project trying to figure out what made it crash.
 
-## Athletic Software Engineering
-
-Right now I find WODs challenging and stressful. When I did Euler problems 1 and 2 for the homework WODs, I found them much easier compared to the BWOD and in-class WOD. My main problem with the in-class WOD was forgetting about string immutability and thinking the string could be edited as an array. I hope that practicing using Javascript more will get me used to its rules and syntax, and I'll be able to comple the in-class WODs.
+##
