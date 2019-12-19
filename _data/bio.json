@@ -39,6 +39,11 @@
       ]
     },
     {
+      "name": "Website Development",
+      "keywords": [
+      ]
+    },
+    {
       "name": "Renewable Energy",
       "keywords": [
         "solar pv"
@@ -53,6 +58,9 @@
         "C",
         "C++",
         "Java",
+        "Javascript",
+        "HTML",
+        "Verilog",
         "Assembly"
       ]
     },
@@ -71,13 +79,14 @@
       "area": "Computer Engineering (expected Fall, 2019)",
       "studyType": "B.S.",
       "startDate": "2015-09-01",
-      "endDate": "Present",
+      "endDate": "2019-12-20",
       "gpa": "",
       "courses": [
         "EE 361: Digital Systems and Computer Design",
         "EE 367: Computer Data Structures and Algorithms",
         "EE 438: Renewable Energy",
-        "EE 468: Introduction to Operating Systems"
+        "EE 468: Introduction to Operating Systems",
+        "ICS 314: Software Engineering I"
       ]
     }
   ],
