@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: More than Just Language and Frameworks
+title: Software Engineering - More than Just Language and Frameworks
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-18
 labels:
